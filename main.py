@@ -19,7 +19,7 @@ class Cube:
             [-self.halfLength, -self.halfLength, self.halfLength],
             [-self.halfLength, self.halfLength, -self.halfLength],
             [-self.halfLength, self.halfLength, self.halfLength],
-            [-self.halfLength, -self.halfLength, -self.halfLength],
+            [self.halfLength, -self.halfLength, -self.halfLength],
             [self.halfLength, -self.halfLength, self.halfLength],
             [self.halfLength, self.halfLength, -self.halfLength],
             [self.halfLength, self.halfLength, self.halfLength],
